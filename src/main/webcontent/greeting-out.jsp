@@ -6,8 +6,8 @@
         <meta charset="UTF-8">
         <title>greeting</title>
     </head>
-<body>
-    <%request.setCharacterEncoding("UTF-8");%>
-    <p>こんにちは、<%=request.getParameter("user")%>さん!</p>
-</body>
+    <body>
+        <%request.setCharacterEncoding("UTF-8");%>
+        <p>こんにちは、<%=request.getParameter("user")%>さん!</p>
+    </body>
 </html>
